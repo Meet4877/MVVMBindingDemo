@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		15A419112A38E77100FADE53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A419102A38E77100FADE53 /* AppDelegate.swift */; };
 		15A419132A38E77100FADE53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A419122A38E77100FADE53 /* SceneDelegate.swift */; };
-		15A419152A38E77200FADE53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A419142A38E77200FADE53 /* ViewController.swift */; };
+		15A419152A38E77200FADE53 /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A419142A38E77200FADE53 /* UserVC.swift */; };
 		15A419182A38E77200FADE53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A419162A38E77200FADE53 /* Main.storyboard */; };
 		15A4191A2A38E77200FADE53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A419192A38E77200FADE53 /* Assets.xcassets */; };
 		15A4191D2A38E77200FADE53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A4191B2A38E77200FADE53 /* LaunchScreen.storyboard */; };
 		15A419282A38E77200FADE53 /* MVVMBindingDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A419272A38E77200FADE53 /* MVVMBindingDemoTests.swift */; };
 		15A419322A38E77200FADE53 /* MVVMBindingDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A419312A38E77200FADE53 /* MVVMBindingDemoUITests.swift */; };
 		15A419342A38E77200FADE53 /* MVVMBindingDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A419332A38E77200FADE53 /* MVVMBindingDemoUITestsLaunchTests.swift */; };
+		15A419462A38EC7E00FADE53 /* UserVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A419452A38EC7E00FADE53 /* UserVM.swift */; };
+		15A419482A38EC9600FADE53 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A419472A38EC9600FADE53 /* UserModel.swift */; };
+		15F666252A46D591006FC5E0 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F666232A46D591006FC5E0 /* UserTableViewCell.swift */; };
+		15F666262A46D591006FC5E0 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F666242A46D591006FC5E0 /* UserTableViewCell.xib */; };
+		15F666292A46D6D7006FC5E0 /* CustomExension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F666282A46D6D7006FC5E0 /* CustomExension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,7 @@
 		15A4190D2A38E77100FADE53 /* MVVMBindingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMBindingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A419102A38E77100FADE53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15A419122A38E77100FADE53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		15A419142A38E77200FADE53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15A419142A38E77200FADE53 /* UserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
 		15A419172A38E77200FADE53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15A419192A38E77200FADE53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15A4191C2A38E77200FADE53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		15A4192D2A38E77200FADE53 /* MVVMBindingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMBindingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A419312A38E77200FADE53 /* MVVMBindingDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMBindingDemoUITests.swift; sourceTree = "<group>"; };
 		15A419332A38E77200FADE53 /* MVVMBindingDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMBindingDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15A419452A38EC7E00FADE53 /* UserVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVM.swift; sourceTree = "<group>"; };
+		15A419472A38EC9600FADE53 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		15F666232A46D591006FC5E0 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		15F666242A46D591006FC5E0 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		15F666282A46D6D7006FC5E0 /* CustomExension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomExension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +109,13 @@
 		15A4190F2A38E77100FADE53 /* MVVMBindingDemo */ = {
 			isa = PBXGroup;
 			children = (
-				15A419102A38E77100FADE53 /* AppDelegate.swift */,
-				15A419122A38E77100FADE53 /* SceneDelegate.swift */,
-				15A419142A38E77200FADE53 /* ViewController.swift */,
+				15F6662A2A46D713006FC5E0 /* Module */,
+				15F666272A46D6BA006FC5E0 /* Utils */,
 				15A419162A38E77200FADE53 /* Main.storyboard */,
 				15A419192A38E77200FADE53 /* Assets.xcassets */,
 				15A4191B2A38E77200FADE53 /* LaunchScreen.storyboard */,
 				15A4191E2A38E77200FADE53 /* Info.plist */,
+				15A419402A38E81700FADE53 /* Delegates */,
 			);
 			path = MVVMBindingDemo;
 			sourceTree = "<group>";
@@ -125,6 +135,75 @@
 				15A419332A38E77200FADE53 /* MVVMBindingDemoUITestsLaunchTests.swift */,
 			);
 			path = MVVMBindingDemoUITests;
+			sourceTree = "<group>";
+		};
+		15A419402A38E81700FADE53 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				15A419102A38E77100FADE53 /* AppDelegate.swift */,
+				15A419122A38E77100FADE53 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		15A419412A38E82E00FADE53 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				15A419432A38E84300FADE53 /* UserVM */,
+				15A419442A38E84C00FADE53 /* UserVC */,
+				15A419422A38E83C00FADE53 /* UserModel */,
+				15F666222A46D573006FC5E0 /* UserCell */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		15A419422A38E83C00FADE53 /* UserModel */ = {
+			isa = PBXGroup;
+			children = (
+				15A419472A38EC9600FADE53 /* UserModel.swift */,
+			);
+			path = UserModel;
+			sourceTree = "<group>";
+		};
+		15A419432A38E84300FADE53 /* UserVM */ = {
+			isa = PBXGroup;
+			children = (
+				15A419452A38EC7E00FADE53 /* UserVM.swift */,
+			);
+			path = UserVM;
+			sourceTree = "<group>";
+		};
+		15A419442A38E84C00FADE53 /* UserVC */ = {
+			isa = PBXGroup;
+			children = (
+				15A419142A38E77200FADE53 /* UserVC.swift */,
+			);
+			path = UserVC;
+			sourceTree = "<group>";
+		};
+		15F666222A46D573006FC5E0 /* UserCell */ = {
+			isa = PBXGroup;
+			children = (
+				15F666232A46D591006FC5E0 /* UserTableViewCell.swift */,
+				15F666242A46D591006FC5E0 /* UserTableViewCell.xib */,
+			);
+			path = UserCell;
+			sourceTree = "<group>";
+		};
+		15F666272A46D6BA006FC5E0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				15F666282A46D6D7006FC5E0 /* CustomExension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		15F6662A2A46D713006FC5E0 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				15A419412A38E82E00FADE53 /* Users */,
+			);
+			path = Module;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15F666262A46D591006FC5E0 /* UserTableViewCell.xib in Resources */,
 				15A4191D2A38E77200FADE53 /* LaunchScreen.storyboard in Resources */,
 				15A4191A2A38E77200FADE53 /* Assets.xcassets in Resources */,
 				15A419182A38E77200FADE53 /* Main.storyboard in Resources */,
@@ -258,8 +338,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15A419152A38E77200FADE53 /* ViewController.swift in Sources */,
+				15A419152A38E77200FADE53 /* UserVC.swift in Sources */,
+				15A419462A38EC7E00FADE53 /* UserVM.swift in Sources */,
 				15A419112A38E77100FADE53 /* AppDelegate.swift in Sources */,
+				15A419482A38EC9600FADE53 /* UserModel.swift in Sources */,
+				15F666292A46D6D7006FC5E0 /* CustomExension.swift in Sources */,
+				15F666252A46D591006FC5E0 /* UserTableViewCell.swift in Sources */,
 				15A419132A38E77100FADE53 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
